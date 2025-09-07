@@ -1,209 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Abdallah Ibrahim - PHP Laravel Full Stack Developer with 3+ years experience in web development">
-        <meta name="keywords" content="PHP, Laravel, Full Stack Developer, Web Development, Node.js, Angular">
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+# 👋 Hi, I'm Abdallah Ibrahim
 
-        <title>Abdallah Ibrahim - Full Stack Developer</title>
-    </head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar" role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <a href="./index.html" class="nav-logo" aria-label="Abdallah Ibrahim Home">
-                <span class="logo-text">Abdallah Ibrahim</span>
-            </a>
+[![Full Stack Developer](https://img.shields.io/badge/Full%20Stack%20Developer-PHP%20%7C%20Laravel%20%7C%20Node.js-blue?style=for-the-badge&logo=php&logoColor=white)](https://github.com/M45CJ3J)
+[![Location](https://img.shields.io/badge/Location-Berlin%2C%20Germany-green?style=for-the-badge&logo=location&logoColor=white)](https://github.com/M45CJ3J)
+[![Experience](https://img.shields.io/badge/Experience-8%2B%20Years-orange?style=for-the-badge&logo=experience&logoColor=white)](https://github.com/M45CJ3J)
 
-            <div class="nav-menu" id="nav-menu">
-                <a href="#services" class="nav-link">Services</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contact</a>
-                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-                    <i class="fas fa-moon"></i>
-                </button>
-            </div>
+---
 
-            <div class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+## 🚀 About Me
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">
-                        Hello, I'm <span class="highlight">Abdallah Ibrahim</span>
-                    </h1>
-                    <h2 class="hero-subtitle">PHP Laravel Full Stack Developer</h2>
-                    <p class="hero-description">
-                        I am offering 3+ years of experience in the Software Development field (Full Stack Backend Mainly).
-                        College graduate seeking a technical position with extensive technical experience at NTI.
-                        Motivated, enthusiastic and committed to be an added value employee at my work.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="./Abdallah Ibrahim CV.pdf" download="Abdallah_Ibrahim_CV.pdf" class="btn btn-primary">
-                            <i class="fas fa-download"></i>
-                            Download Resume
-                        </a>
-                        <a href="#contact" class="btn btn-secondary">
-                            <i class="fas fa-envelope"></i>
-                            Get In Touch
-                        </a>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/abdallah-ibrahim-0a2b15156/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/M45CJ3J" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="image-container">
-                        <img src="./img/abido.jpeg" alt="Abdallah Ibrahim" class="profile-image">
-                        <div class="image-overlay"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+I'm a passionate **Full Stack Developer** with **8+ years of experience** in building robust web applications and scalable backend systems. Currently based in **Berlin, Germany**, I specialize in PHP Laravel development with extensive experience in modern JavaScript frameworks and database design.
 
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Services</h2>
-                <p class="section-subtitle">What I can do for you</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3 class="service-title">Web Development</h3>
-                    <p class="service-description">
-                        Creating modern web applications and RESTful APIs using Laravel and Node.js for both web and mobile applications.
-                    </p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3 class="service-title">API Development</h3>
-                    <p class="service-description">
-                        Building robust backend APIs and endpoints for mobile apps and frontend frameworks with proper documentation.
-                    </p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-database"></i>
-                    </div>
-                    <h3 class="service-title">Database Design</h3>
-                    <p class="service-description">
-                        Designing and optimizing database schemas for scalable applications with complex data relationships.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
- 
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">A showcase of my recent work</p>
-            </div>
-            
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">All Projects</button>
-                <button class="filter-btn" data-filter="laravel">Laravel</button>
-                <button class="filter-btn" data-filter="angular">Angular</button>
-                <button class="filter-btn" data-filter="nodejs">Node.js</button>
-                <button class="filter-btn" data-filter="codeignitor">CodeIgniter</button>
-            </div>
+### 🎯 What I Do Best
+- **Backend Development**: Laravel, Node.js, PHP, CodeIgniter
+- **Frontend Development**: Angular, JavaScript, HTML5, CSS3, SCSS
+- **Database Design**: MySQL, PostgreSQL, MongoDB
+- **API Development**: RESTful APIs, GraphQL
+- **DevOps**: Linux server management, deployment automation
+- **SaaS Solutions**: Multi-tenant applications and CRM systems
 
-            <div class="projects-grid" id="projects-grid">
-                <!-- Projects will be dynamically loaded here -->
-            </div>
-        </div>
-    </section>
+## 🛠️ Tech Stack
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Let's Work Together</h2>
-                <p class="section-subtitle">Ready to bring your ideas to life?</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Phone</h3>
-                            <p>+201124093527</p>
-                        </div>
-                    </div>
-                    <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Email</h3>
-                            <p>abdallanasr505@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Location</h3>
-                            <p>Egypt</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+### Backend Technologies
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
+![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white)
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2024 Abdallah Ibrahim. All rights reserved.</p>
-                <div class="footer-social">
-                    <a href="https://www.linkedin.com/in/abdallah-ibrahim-0a2b15156/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/M45CJ3J" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+### Frontend Technologies
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)
 
-    <script src="json.js"></script>
-    <script src="script.js"></script>
-      
-</body>
-</html>
+### Databases & Tools
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+## 🌟 Featured Projects
+
+### 🏢 [Ashadagroup](https://ashadagroup.com/)
+**Real Estate Company Website & Management System**
+- **Tech Stack**: Laravel, Bootstrap, MySQL
+- **Features**: Property listings, client management, admin dashboard
+- **Location**: Lebanon
+- **Status**: Live Production
+
+### 🎓 [XU University](https://xu-university.com/)
+**Learning Management System (LMS)**
+- **Tech Stack**: Laravel, Bootstrap, MySQL
+- **Features**: Course management, student portal, GDPR compliance
+- **Special**: Deployed on Kali Linux server with security focus
+- **Status**: Live Production
+
+### 🛒 [E-commerce Angular](https://github.com/M45CJ3J/ecommece-angular.git)
+**Modern E-commerce Platform**
+- **Tech Stack**: Angular, TypeScript, RESTful APIs
+- **Features**: Product catalog, shopping cart, user authentication
+- **Status**: Open Source
+
+### 🏥 [Profitic CRM](https://app.profiticemr.com/administrator/index.php)
+**Healthcare Clinic Management System**
+- **Tech Stack**: PHP Native, Laravel, Angular, MySQL
+- **Features**: Patient management, appointment scheduling, billing
+- **Special**: Large-scale database with optimized queries
+- **Type**: SaaS Solution
+- **Status**: Live Production
+
+### 🛍️ [Abido Spicy Store](https://www.abido.com/)
+**E-commerce & Dashboard System**
+- **Tech Stack**: Laravel, MySQL
+- **Features**: Online store, inventory management, admin dashboard
+- **Location**: Lebanon
+- **Status**: Live Production
+
+### 🌍 [Euro Assist](https://euro-assist.com/)
+**Travel Assistance Platform**
+- **Tech Stack**: Node.js, Express.js
+- **Features**: Travel insurance, assistance services
+- **Status**: Live Production
+
+### 💼 [EDsX Financial Services](https://www.edsx.ch/)
+**Swiss Financial Services Platform**
+- **Tech Stack**: CodeIgniter, MySQL
+- **Features**: Financial dashboard, client management
+- **Location**: Switzerland
+- **Status**: Live Production
+
+## 📊 GitHub Statistics
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=M45CJ3J&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/M45CJ3J)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=M45CJ3J&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/M45CJ3J)
+
+## 🏆 Achievements
+
+- **Pull Shark x2** - GitHub Achievement
+- **YOLO** - GitHub Achievement
+- **8+ Years** of professional development experience
+- **14+ Repositories** with diverse projects
+- **7 Stars** received on repositories
+- **4 Followers** and growing community
+
+## 🌐 Portfolio & Contact
+
+- **Portfolio Website**: [AbdallahIbrahim.github.io](https://abdallahibrahim.github.io)
+- **LinkedIn**: [abdallah-ibrahim-0a2b15156](https://www.linkedin.com/in/abdallah-ibrahim-0a2b15156/)
+- **Email**: abdallanasr505@gmail.com
+- **Phone**: +201124093527
+- **Location**: Berlin, Germany
+
+## 💼 Professional Experience
+
+### Key Strengths
+- **Full Stack Development**: End-to-end application development
+- **API Design**: RESTful and GraphQL API development
+- **Database Optimization**: Complex query optimization and performance tuning
+- **SaaS Architecture**: Multi-tenant application design and implementation
+- **Security**: GDPR compliance and security best practices
+- **DevOps**: Server management and deployment automation
+
+### Industry Experience
+- **Healthcare**: CRM systems for medical clinics
+- **Real Estate**: Property management platforms
+- **Education**: Learning management systems
+- **E-commerce**: Online stores and marketplaces
+- **Financial Services**: Banking and financial platforms
+- **Travel**: Travel assistance and booking systems
+
+## 🚀 What I'm Working On
+
+- 🔥 Building scalable SaaS applications
+- 🎯 Optimizing database performance for large-scale applications
+- 🌐 Developing modern web applications with latest technologies
+- 📱 Creating responsive and accessible user interfaces
+- 🔒 Implementing security best practices and GDPR compliance
+
+## 📈 GitHub Activity
+
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=M45CJ3J&theme=tokyo-night&hide_border=true)](https://github.com/M45CJ3J)
+
+## 🤝 Let's Connect!
+
+I'm always interested in discussing new opportunities, interesting projects, or just having a chat about technology and development.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdallah-ibrahim-0a2b15156/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdallanasr505@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://abdallahibrahim.github.io)
+
+---
+
+![Profile Views](https://komarev.com/ghpvc/?username=M45CJ3J&style=flat-square&color=blue)
+![GitHub Followers](https://img.shields.io/github/followers/M45CJ3J?style=flat-square&color=green)
+![GitHub Stars](https://img.shields.io/github/stars/M45CJ3J?style=flat-square&color=yellow)
+
+*Thanks for visiting my profile! Feel free to explore my repositories and don't hesitate to reach out if you'd like to collaborate or have any questions.*
