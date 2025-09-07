@@ -39,55 +39,7 @@ I'm a passionate **Full Stack Developer** with **8+ years of experience** in bui
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-## 🌟 Featured Projects
 
-### 🏢 [Ashadagroup](https://ashadagroup.com/)
-**Real Estate Company Website & Management System**
-- **Tech Stack**: Laravel, Bootstrap, MySQL
-- **Features**: Property listings, client management, admin dashboard
-- **Location**: Lebanon
-- **Status**: Live Production
-
-### 🎓 [XU University](https://xu-university.com/)
-**Learning Management System (LMS)**
-- **Tech Stack**: Laravel, Bootstrap, MySQL
-- **Features**: Course management, student portal, GDPR compliance
-- **Special**: Deployed on Kali Linux server with security focus
-- **Status**: Live Production
-
-### 🛒 [E-commerce Angular](https://github.com/M45CJ3J/ecommece-angular.git)
-**Modern E-commerce Platform**
-- **Tech Stack**: Angular, TypeScript, RESTful APIs
-- **Features**: Product catalog, shopping cart, user authentication
-- **Status**: Open Source
-
-### 🏥 [Profitic CRM](https://app.profiticemr.com/administrator/index.php)
-**Healthcare Clinic Management System**
-- **Tech Stack**: PHP Native, Laravel, Angular, MySQL
-- **Features**: Patient management, appointment scheduling, billing
-- **Special**: Large-scale database with optimized queries
-- **Type**: SaaS Solution
-- **Status**: Live Production
-
-### 🛍️ [Abido Spicy Store](https://www.abido.com/)
-**E-commerce & Dashboard System**
-- **Tech Stack**: Laravel, MySQL
-- **Features**: Online store, inventory management, admin dashboard
-- **Location**: Lebanon
-- **Status**: Live Production
-
-### 🌍 [Euro Assist](https://euro-assist.com/)
-**Travel Assistance Platform**
-- **Tech Stack**: Node.js, Express.js
-- **Features**: Travel insurance, assistance services
-- **Status**: Live Production
-
-### 💼 [EDsX Financial Services](https://www.edsx.ch/)
-**Swiss Financial Services Platform**
-- **Tech Stack**: CodeIgniter, MySQL
-- **Features**: Financial dashboard, client management
-- **Location**: Switzerland
-- **Status**: Live Production
 
 ## 📊 GitHub Statistics
 
